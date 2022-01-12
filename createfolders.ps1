@@ -1,4 +1,4 @@
-$folder = "C:\Desktop\Omega"
+$folder = "C:\Desktop\test\"
 $file = Import-Csv 'C:\folders.csv' -Delimiter ';' -Encoding Default
 $file | 
  % { 
